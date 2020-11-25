@@ -1,0 +1,32 @@
+{
+    "name": "Weather Bot",
+    "description": "A telegram bot to fetch weather info.",
+    "keywords": [
+        "Weather",
+        "Bot",
+        "Telegram"
+    ],
+    "logo": "https://telegra.ph/file/e99f8ff123441a02a4fc7.jpg",
+    "repository": "https://github.com/amanimuhammed/Weatherbot",
+    "success_url": "/",
+    "env": {
+        "BOT_TOKEN": {
+            "description": "your Telegram Bot Token, from @BotFather"
+        },
+        "API_TOKEN": {
+            "description": "Get your api key from openweathermap.org"
+        },
+"START_MESSAGE": {
+   "description": "START MESSAGE FOR YOUR BOT.",
+   "required": false
+  }
+    },
+    "formation": {
+        "web": {
+            "quantity": 1,
+            "size": "free"
+        }
+    },
+    "image": "heroku/php"
+}
+
