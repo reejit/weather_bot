@@ -1,5 +1,5 @@
 {
-    "name": "Weather Bot",
+    "name": "Weather_Bot",
     "description": "A telegram bot to fetch weather info.",
     "keywords": [
         "Weather",
